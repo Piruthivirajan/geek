@@ -1,0 +1,533 @@
+
+	<div id="main-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+				
+		<div class="navbar-header">
+			<!-- responsive navigation -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars"></i>
+			</button> <!-- /.navbar-toggle -->
+				
+		</div> <!-- /.navbar-header -->
+
+
+		<nav class="collapse navbar-collapse">
+			<!-- Main navigation -->
+			<ul id="headernavigation" class="nav navbar-nav">
+				<li class="active"><a href="https://geekmatics.herokuapp.com">Back</a></li>	
+			
+			</ul> <!-- /.nav .navbar-nav -->
+		</nav> <!-- /.navbar-collapse  -->
+	</div><!-- /#main-menu -->
+<h1 class="header-agileits w3 w3l agile-info">Register Form</h1>
+<section id="register" class="section-style" data-background-image="images/background/contact.jpg">
+		<div style="margin-left:150px;width:1000px;" class="pattern height-resize">
+			
+
+			<br/><br/>
+<div style="margin-left:150px;" class="col-sm-2">
+	<label  class="form-control" >Name of the collge</label>
+	</div>
+<div class="col-sm-6">
+<select [(ngModel)]="defaultValue" (change)="changeShape($event.target)" style="color:black">
+	       <option value="0">--Select--</option>                                         
+	        <option value=" Adithya Institute of Technology (AIT), Coimbatore"> Adithya Institute of Technology (AIT), Coimbatore</option>
+			<option value=" Amrita School of Engineering (ASE), Coimbatore"> Amrita School of Engineering (ASE), Coimbatore</option>
+			<option value=" Amrita Vishwa Vidyapeetham-Deemed University"> Amrita Vishwa Vidyapeetham-Deemed University</option>
+			<option value=" Anna University of Technology, Coimbatore "> Anna University of Technology, Coimbatore </option>
+			<option value=" Arjun College Of Technology"> Arjun College Of Technology</option>
+			<option value=" Arts College, Coimbatore "> Arts College, Coimbatore </option>
+			<option value=" Avinashilingam University "> Avinashilingam University </option>
+			<option value=" Bharathiar University "> Bharathiar University </option>
+			<option value=" CBM College of Arts and Science"> CBM College of Arts and Science</option>
+			<option value=" Central Institute for Cotton Research "> Central Institute for Cotton Research </option>
+			<option value=" Cms College of Engineering and Technology "> Cms College of Engineering and Technology </option>
+			<option value=" Coimbatore Institute of Engineering and Information Technology "> Coimbatore Institute of Engineering and Information Technology </option>
+			<option value=" Coimbatore Institute of Engineering and Technology Coimbatore "> Coimbatore Institute of Engineering and Technology Coimbatore </option>
+			<option value=" Coimbatore Institute of Technology (CIT)"> Coimbatore Institute of Technology (CIT)</option>
+			<option value=" Coimbatore Medical College "> Coimbatore Medical College </option>
+			<option value=" Cotton Research Institute "> Cotton Research Institute </option>
+			<option value=" Dhaanish Ahmed Institute of Technology, Coimbatore"> Dhaanish Ahmed Institute of Technology, Coimbatore</option>
+			<option value=" Dr. G. R. Damodaran College of Science"> Dr. G. R. Damodaran College of Science</option>
+			<option value=" Dr. N. G. P. Arts and Science College, Coimbatore"> Dr. N. G. P. Arts and Science College, Coimbatore</option>
+				<option value=" Dr. N. G. P. Institute of Technology (DrNGPIT), Coimbatore "> Dr. N. G. P. Institute of Technology (DrNGPIT), Coimbatore </option>
+			<option value=" Dr. S. N. S. Rajalakshmi College of Arts and Science, Coimbatore "> Dr. S. N. S. Rajalakshmi College of Arts and Science, Coimbatore </option>
+			<option value=" EduKart "> EduKart </option>
+			<option value=" Government College of Technology, Coimbatore "> Government College of Technology, Coimbatore </option>
+			<option value=" Hindusthan college of arts and science , Coimbatore"> Hindusthan college of arts and science , Coimbatore</option>
+			<option value=" Hindusthan college of Engineering &amp; Technology, Coimbatore"> Hindusthan college of Engineering &amp; Technology, Coimbatore</option>
+			<option value=" Hindusthan Institute of Technology, Coimbatore"> Hindusthan Institute of Technology, Coimbatore</option>
+			<option value=" Indian Institute of Research and Management "> Indian Institute of Research and Management </option>
+			<option value=" Info Institute of Engineering , Coimbatore"> Info Institute of Engineering , Coimbatore</option>
+			<option value=" Institute of Forest Genetics and Tree Breeding (IFGTB)"> Institute of Forest Genetics and Tree Breeding (IFGTB)</option>
+			<option value=" Kalaivani College of Technology , Coimbatore"> Kalaivani College of Technology , Coimbatore</option>
+			<option value=" Karpagam Institute of Technology, Coimbatore "> Karpagam Institute of Technology, Coimbatore </option>
+			<option value=" Karpagam University"> Karpagam University</option>
+			<option value=" Karunya University"> Karunya University</option>
+			<option value=" KG College of Arts and Science "> KG College of Arts and Science </option>
+			<option value=" KGiSL Institute of Information Management ,Coimbatore"> KGiSL Institute of Information Management ,Coimbatore</option>
+			<option value=" KGiSL Institute of Technology (KITE) , Coimbatore "> KGiSL Institute of Technology (KITE) , Coimbatore </option>
+			<option value=" Kongunadu Arts and Science College "> Kongunadu Arts and Science College </option>
+			<option value=" KTVR Knowledge Park for Engineering and Technology ,Coimbatore"> KTVR Knowledge Park for Engineering and Technology ,Coimbatore</option>
+			<option value=" Kumaraguru College of Technology, Coimbatore "> Kumaraguru College of Technology, Coimbatore </option>
+			<option value=" Nehru Institute of Engineering &amp; Technology, Coimbatore."> Nehru Institute of Engineering &amp; Technology, Coimbatore.</option>
+			<option value=" Nirmala College for Women "> Nirmala College for Women </option>	
+			<option value=" PPG Institute of Technology, Coimbatore"> PPG Institute of Technology, Coimbatore</option>
+			<option value=" PSG College of Arts and Science "> PSG College of Arts and Science </option>
+			<option value=" PSG College of Technology "> PSG College of Technology </option>
+			<option value=" PSG College of Technology, Coimbatore"> PSG College of Technology, Coimbatore</option>
+			<option value=" PSG Institute of Medical Sciences and Research"> PSG Institute of Medical Sciences and Research</option>	
+			<option value=" Ramakrishna Mission Vivekananda University (Off-Campus)"> Ramakrishna Mission Vivekananda University (Off-Campus)</option>
+			<option value=" Rathinam Technical Campus, Eachanari , Coimbatore"> Rathinam Technical Campus, Eachanari , Coimbatore</option>
+			<option value=" Salim Ali Centre for Ornithology and Natural History"> Salim Ali Centre for Ornithology and Natural History</option>
+			<option value=" Sankara College of Science and Commerce "> Sankara College of Science and Commerce </option>
+			<option value=" SardarVallabhbhai Patel International School of Textiles and Management "> SardarVallabhbhai Patel International School of Textiles and Management </option>
+			<option value=" Sathya College of Engineering"> Sathya College of Engineering</option>
+			<option value=" Shri Nehru MahaVidyalaya College of Arts and Science "> Shri Nehru MahaVidyalaya College of Arts and Science </option>
+			<option value=" SNR &amp; Sons College, Nava, India, Coimbatore "> SNR &amp; Sons College, Nava, India, Coimbatore </option>
+			<option value=" SNS College of Engineering, Coimbatore"> SNS College of Engineering, Coimbatore</option>
+			<option value=" SNS College of Technology, Coimbatore"> SNS College of Technology, Coimbatore</option>
+			<option value=" South India Textile Research (SITRA) "> South India Textile Research (SITRA) </option>
+			<option value=" Sree Narayana Guru College "> Sree Narayana Guru College </option>
+			<option value=" SreeRamu College of Arts &amp; Science, Pollachi [20] , Coimbatore"> SreeRamu College of Arts &amp; Science, Pollachi [20] , Coimbatore</option>
+			<option value=" SreeSakthi Engineering College, Coimbatore"> SreeSakthi Engineering College, Coimbatore</option>
+			<option value=" SreeSaraswathiThyagaraja College, Pollachi , Coimbatore"> SreeSaraswathiThyagaraja College, Pollachi , Coimbatore</option>
+			<option value=" Sri Krishna Arts and Science College"> Sri Krishna Arts and Science College</option>
+			<option value=" Sri Krishna College of Engineering &amp; Technology, Coimbatore"> Sri Krishna College of Engineering &amp; Technology, Coimbatore</option>
+			<option value=" Sri Ramakrishna College of Arts and Science for Women "> Sri Ramakrishna College of Arts and Science for Women </option>
+			<option value=" Sri Ramakrishna Engineering College , Coimbatore"> Sri Ramakrishna Engineering College , Coimbatore</option>
+			<option value=" Sri Ramakrishna Institute of Technology, Coimbatore"> Sri Ramakrishna Institute of Technology, Coimbatore</option>
+			<option value=" Sri Ramakrishna Mission Vidyalaya College of Arts And Science"> Sri Ramakrishna Mission Vidyalaya College of Arts And Science</option>
+			<option value=" Sri RamalingaSowdambigai College of Arts and Science"> Sri RamalingaSowdambigai College of Arts and Science</option>
+			<option value=" Sri Shakthi Institute of Engineering and Technology, Coimbatore"> Sri Shakthi Institute of Engineering and Technology, Coimbatore</option>
+			<option value=" Sugarcane Breeding Research Institute "> Sugarcane Breeding Research Institute </option>
+			<option value=" Tamil Nadu Agricultural University "> Tamil Nadu Agricultural University </option>
+			<option value=" ThavathiruSanthalingaAdigalar Arts Science And Tamil College "> ThavathiruSanthalingaAdigalar Arts Science And Tamil College </option>
+			<option value=" United Institute Of Technology - UIT, Coimbatore "> United Institute Of Technology - UIT, Coimbatore </option>
+			<option value="Others"  >Others</option>
+
+			</select>                              </div>
+			<br/>
+			<div style="margin-left:150px;" *ngIf="other" class="form-group">
+				<br/><br/><br/>
+                                            <div class="col-sm-2">
+                                                    	<label  class="form-control" >Collge Name</label>
+                                            </div>
+                                            <div class="col-sm-8">
+                                                        <input name="TextBox1" type="text" maxlength="80" [(ngModel)]="newclg" id="TextBox1" class="form-control" placeholder="College Name">
+                                                    </div>
+            </div>
+
+<!-- checkbox -->
+	<div class="checkbox" dir="rtl" style="table-layout: auto; empty-cells: hide; clip: rect(auto, auto, auto, auto);">
+                		    <div class="form-group">
+                  				  <div class="row well-lg">
+										<br/><br/><br/><br/>
+                       				 <div class="col-lg-3">
+                              		  <span class="checkbox-inline"><input id="CheckBox1" type="checkbox" [(ngModel)]="junkc" name="CheckBox1"><label style="color:white;" for="CheckBox1">GeekJunk</label></span>
+                    				    </div>
+                        				<div class="col-lg-3">                     
+                                			<span class="checkbox-inline"><input id="CheckBox4" type="checkbox" [(ngModel)]="trixc" name="CheckBox4"><label  style="color:white;" for="CheckBox4">GeekTrix</label></span>
+                      					  </div>
+                       					 <div class="col-lg-3">
+                           				 <span class="checkbox-inline"><input id="CheckBox9" type="checkbox" [(ngModel)]="facec" name="CheckBox9"><label  style="color:white;" for="CheckBox9">GeekFace</label></span>
+                       					 </div>
+                        			<div class="col-sm-2">
+                           				 <span class="checkbox-inline"><input id="CheckBox6" type="checkbox" [(ngModel)]="geekadzc" name="CheckBox6"><label  style="color:white;" for="CheckBox6">GeekAdz</label></span>
+                       				 </div>
+                            </div>
+
+                    <div class="row well-lg">
+                        <div class="col-lg-3">
+                            <span class="checkbox-inline"><input id="CheckBox8" type="checkbox" [(ngModel)]="zorroc" name="CheckBox8"><label  style="color:white;" for="CheckBox8">GeekZorro</label></span> 
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="checkbox-inline"><input id="CheckBox3" type="checkbox" [(ngModel)]="quizc"name="CheckBox3"><label  style="color:white;" for="CheckBox3">GeekQuiz</label></span>  
+                        </div>
+                        <div class="col-lg-3">
+                            <span class="checkbox-inline"><input id="CheckBox7" type="checkbox" [(ngModel)]="meshc" name="CheckBox7"><label  style="color:white;" for="CheckBox7">GeekMesh</label></span>   
+                            <!--<span class="checkbox-inline"><input id="CheckBox2" type="checkbox" name="CheckBox2" /><label for="CheckBox2">GeekTrix </label></span>   -->
+                        </div>
+                        <div class="col-sm-2">
+                            <span class="checkbox-inline"><input id="CheckBox5" type="checkbox" [(ngModel)]="tangoc" name="CheckBox5"><label  style="color:white;" for="CheckBox5">GeekTango</label></span> 
+                        </div>
+          
+                    </div>
+                		    </div></div>
+<!-- Checkbox End-->
+
+			<div *ngIf="junkc" class="container">
+						
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+						<label  class="form-control" >Geek Junk - Debugging</label>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="junkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="junkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="junkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div><!-- /.container -->
+<!-- tango-->
+<div *ngIf="trixc" class="container">
+				
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+							<label  class="form-control" >Geek Trix - Software Testing </label>	
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="tjunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="tjunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tjunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+                        
+						
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div><!-- /.container -->
+<!-- tango end-->
+	<!-- Face -->
+
+	<div *ngIf="facec" class="container">
+				<br/>	
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+							<label  class="form-control" >Geek Face - Face Art</label>	
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="fjunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="fjunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="fjunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+				<!-- Faceend -->
+
+			</div>
+<!-- Ad -->
+		
+			<div *ngIf="geekadzc" class="container">
+					<br/>
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+							<label  class="form-control" >Geek Adz - Marketing</label>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="ajunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="ajunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="ajunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div>
+			<!-- adend -->
+			<!--  zorroc  -->
+
+<div *ngIf="zorroc" class="container">
+			<br/>	
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+							<label  class="form-control" >Geek Zorro - Paper Presentation</label>	
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="zjunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="zjunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="zjunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div><!-- /.container -->
+			<!--  zorrocend  -->
+			<!--  quizc  -->
+
+<div *ngIf="quizc" class="container">
+	<br/>			
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+							<label  class="form-control" >Geek Quiz - Quiz</label>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="qjunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="qjunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="qjunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div><!-- /.container -->
+			<!-- quizcend -->
+			<!--  meshc  -->
+
+<div *ngIf="meshc" class="container">
+		<br/>	
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+						<label  class="form-control" >Geek Mesh - Web Designing</label>	
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="mjunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="mjunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="mjunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+			</div><!-- /.container -->
+			<!-- mesh-->
+			<!--  tangoc  -->
+
+<div *ngIf="tangoc" class="container">
+			<br/>	
+				<form style="margin-left:110px;" id="contact-form"  class="clearfix">
+					<div class="contact-box-hide">
+						<label  class="form-control" >Geek Tango - Network Gaming</label>		
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkpname1" required placeholder="Participant name 1">
+							<span class="contact-subject-error"></span>
+						</div>
+					<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkdept1" required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="tajunkcontact1" required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+				
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkemail1" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkpname2" required placeholder="Participant name 2">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkdept2"  required placeholder="Department">
+							<span class="contact-subject-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="text" class="form-control"  id="contact_email" name="contact_email" [(ngModel)]="tajunkcontact2"  required placeholder="Contact Number">
+							<span class="contact-email-error"></span>
+						</div>
+						<div class="col-sm-3">
+							<input type="email"  class="form-control" id="subject" name="contact_subject" [(ngModel)]="tajunkemail2" required placeholder="Email">
+							<span class="contact-subject-error"></span>
+						</div>
+			
+					</div><!-- /.contact-box-hide -->
+					
+				</form><!-- /#contact-form -->
+
+
+			</div><!-- /.container -->
+			<!-- tangoc -->
+
+
+			<br/><br/><br/>
+					<input style="margin-left:400px;width:200px;height:30px;" _ngcontent-c2="" id="submit" name="btnSubmit" type="button" (click)="check()"  value="Submit" class="btn-success">
+					<br/><br/><br/>
+		</div><!-- /.pattern -->
+
+	</section><!-- /#contact -->
